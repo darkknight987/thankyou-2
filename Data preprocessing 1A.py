@@ -1,6 +1,6 @@
 import pandas as pd 
 import numpy as np
-df = pd.read_csv("D:/NISHANT/COLLEGE/F.Y MSC Practicals/BUISSNESS INTELLIGENCE/PRAC1 (Binning)/diabetes.csv")
+df = pd.read_csv("diabetes.csv")
 BP_list = list(df['BloodPressure'])
 def equifreq(array, m):
     a = len(array)
