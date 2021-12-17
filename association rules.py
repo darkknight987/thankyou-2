@@ -1,7 +1,7 @@
 import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
 from mlxtend.preprocessing import TransactionEncoder
-df = pd.read_csv(r"D:\NISHANT\COLLEGE\F.Y MSC Practicals\BUISSNESS INTELLIGENCE\PRAC7\GroceryStoreDataSet.csv", names = ['products'], sep = ',')
+df = pd.read_csv(r"GroceryStoreDataSet.csv", names = ['products'], sep = ',')
 df.head()
 df.shape
 data = list(df["products"].apply(lambda x:x.split(",") ))
